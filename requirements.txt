@@ -1,0 +1,14 @@
+# Phase 2 (phase2_rag) 核心依赖
+openai>=1.0.0          # Gitee AI API (OpenAI 兼容接口)
+datasets>=2.14.0       # HuggingFace HotpotQA 加载
+faiss-cpu>=1.7.4       # 向量检索
+numpy>=1.24.0
+matplotlib>=3.7.0      # 可视化图表
+
+# Phase 1 (论文复现) 额外依赖
+torch>=2.0.0           # 本地模型推理
+transformers>=4.30.0
+sentence-transformers>=2.2.0
+scikit-learn>=1.2.0
+nltk>=3.8.0
+tqdm>=4.65.0

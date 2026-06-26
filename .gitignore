@@ -1,0 +1,47 @@
+# ===== 模型与数据（体积大，运行时下载）=====
+models/
+*.bin
+*.safetensors
+*.pt
+*.ckpt
+data/
+datasets/
+
+# ===== 实验产物（缓存/中间结果，可重新生成）=====
+rag_benchmark/results_*/
+rag_benchmark/results/
+results_*/
+**/embedding_cache.json
+outputs/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# ===== 环境 / 密钥 =====
+.env
+*.env
+.env.local
+# 切勿提交 API Key！通过环境变量 GITEE_API_KEY 配置
+
+# ===== 系统 / 编辑器 =====
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# ===== 打包产物 =====
+*.zip
+deliverables/
+
+# Claude Code harness (local only, do not upload)
+.claude/

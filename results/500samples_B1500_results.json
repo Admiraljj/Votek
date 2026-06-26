@@ -1,0 +1,42 @@
+{
+  "topk": {
+    "count": 500,
+    "F1": 0.3909,
+    "EM": 0.27,
+    "Evidence Coverage": 0.9975,
+    "Context Redundancy": 0.3458,
+    "Avg Tokens": 1242.3,
+    "F1 per 1k Tokens": 0.314683,
+    "Evidence Efficiency (per 1k tokens)": 0.856682
+  },
+  "reranker": {
+    "count": 500,
+    "F1": 0.4091,
+    "EM": 0.286,
+    "Evidence Coverage": 1.0,
+    "Context Redundancy": 0.3443,
+    "Avg Tokens": 1241.9,
+    "F1 per 1k Tokens": 0.329405,
+    "Evidence Efficiency (per 1k tokens)": 0.858501
+  },
+  "votek": {
+    "count": 500,
+    "F1": 0.3928,
+    "EM": 0.262,
+    "Evidence Coverage": 0.9966,
+    "Context Redundancy": 0.3422,
+    "Avg Tokens": 1238.4,
+    "F1 per 1k Tokens": 0.317172,
+    "Evidence Efficiency (per 1k tokens)": 0.857834
+  },
+  "hybrid": {
+    "count": 500,
+    "F1": 0.4067,
+    "EM": 0.278,
+    "Evidence Coverage": 0.9957,
+    "Context Redundancy": 0.3645,
+    "Avg Tokens": 959.3,
+    "F1 per 1k Tokens": 0.42397,
+    "Evidence Efficiency (per 1k tokens)": 1.075009
+  }
+}
